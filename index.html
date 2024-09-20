@@ -5,25 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
-        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; background: #fff; }
-        h1, h2 { color: #333; }
-        .project { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 10px; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .project {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .project h3 {
+            color: #555;
+        }
+        .project p {
+            color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>My Portfolio</h1>
+    </header>
+    <div class="container">
         <h2>Projects</h2>
         <div class="project">
             <h3>PIC MAP</h3>
             <p>A web application combining photos with maps to document and share travel experiences.</p>
             <ul>
-                <li>Role: Social feature development</li>
-                <li>Challenges: Solved date format issue using JavaScript.</li>
+                <li><strong>Role:</strong> Social feature development</li>
+                <li><strong>Tech Stack:</strong> JavaScript, HTML, CSS, SQL</li>
+                <li><strong>Challenges:</strong> Solved date format issue using JavaScript</li>
             </ul>
         </div>
-        <!-- Add more projects here -->
+        <!-- Add more projects here in the same format -->
+        
+        <div class="project">
+            <h3>Another Project</h3>
+            <p>Brief description of the project goes here.</p>
+            <ul>
+                <li><strong>Role:</strong> Description of your role</li>
+                <li><strong>Tech Stack:</strong> Technologies used</li>
+                <li><strong>Challenges:</strong> Challenges faced and solutions implemented</li>
+            </ul>
+        </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
